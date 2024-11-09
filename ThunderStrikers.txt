@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thunder Strikers Cricket Club</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #007bff;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form select {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        form button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Thunder Strikers Cricket Club</h1>
+</header>
+
+<section id="admission">
+    <h2>Admission</h2>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="category">Membership Category:</label>
+        <select id="category" name="category" required>
+            <option value="kids1">Kids - $999</option>
+            <option value="kids2">Kids - $2300</option>
+            <option value="kids3">Kids - $1100</option>
+            <option value="adults1">Adults - $3100</option>
+            <option value="adults2">Adults - $1999</option>
+        </select>
+
+        <button type="submit">Submit Admission</button>
+    </form>
+</section>
+
+<section id="choose-us">
+    <h2>Why Choose Us</h2>
+    <p>We are digitally available</p>
+    <p>We are available at any time</p>
+    <p>We have experienced coaches</p>
+    <p>And our coaches have the best skills</p>
+</section>
+
+<section id="about-us">
+    <h2>About Us</h2>
+    <p><strong>Club History:</strong> Thunder Strikers was founded in 2020 with the aim of promoting cricket among the youth.</p>
+    <p><strong>Mission:</strong> To develop young talent and foster a love for cricket.</p>
+    <p><strong>Vision:</strong> To become a leading cricket club known for excellence in training and sportsmanship.</p>
+    <p><strong>Values:</strong> Integrity, Teamwork, Passion, and Excellence.</p>
+</section>
+
+<section id="contacts">
+    <h2>Club Contacts</h2>
+    <p><strong>Contact Details for Club Officials:</strong></p>
+    <p>Email: thunderstrikers@email.com</p>
+    <p>Phone: (123) 456-7890</p>
+    <p><strong>Coaches:</strong></p>
+    <ul>
+        <li>1. Parth</li>
+        <li>2. Aditiya</li>
+        <li>3. Akshay</li>
+        <li>4. Vian</li>
+        <li>5. Aarav</li>
+    </ul>
+</section>
+
+<section id="membership-info">
+    <h2>Membership Information</h2>
+    <ul>
+        <li>1. Kids Membership - $999</li>
+        <li>2. Kids Membership - $2300</li>
+        <li <li>3. Kids Membership - $1100</li>
+        <li>4. Adults Membership - $3100</li>
+        <li>5. Adults Membership - $1999</li>
+    </ul>
+</section>
+
+<section id="club-calendar">
+    <h2>Club Calendar</h2>
+    <p>Check our schedule for upcoming matches and events.</p>
+    <ul>
+        <li>March 15, 2023 - Season Opening Match</li>
+        <li>April 10, 2023 - Training Camp</li>
+        <li>May 5, 2023 - Annual Tournament</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2023 Thunder Strikers Cricket Club. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
